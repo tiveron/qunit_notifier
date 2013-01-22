@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "watchr": "~2.3.3",
-    "phantomjs": "~1.8.0-1"
+    "phantomjs": "~1.8.0-1",
+    "growler": ""
   },
   "devDependencies": {
       "mocha": "",
