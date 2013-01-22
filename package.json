@@ -7,7 +7,10 @@
     "watchr": "~2.3.3",
     "phantomjs": "~1.8.0-1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+      "mocha": "",
+      "should": ""
+    },
   "scripts": {
     "test": "mocha test/*.js"
   },
