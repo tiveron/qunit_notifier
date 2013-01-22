@@ -1,0 +1,28 @@
+{
+  "name": "qunit_notifier",
+  "version": "0.0.0",
+  "description": "NodeJS wrapper for Qunit notifications",
+  "main": "index.js",
+  "dependencies": {
+    "watchr": "~2.3.3",
+    "phantomjs": "~1.8.0-1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiveron/qunit_notifier.git"
+  },
+  "keywords": [
+    "qunit",
+    "notifier",
+    "growl",
+    "snarl"
+  ],
+  "author": "Thiago Tiveron",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "ca05f68da40e6a769899e12bf95fc9e6f9dc93d0"
+}
