@@ -1,6 +1,6 @@
 {
   "name": "qunit_notifier",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "NodeJS wrapper for Qunit notifications",
   "main": "index.js",
   "dependencies": {
@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/*.js"
   },
   "repository": {
     "type": "git",
