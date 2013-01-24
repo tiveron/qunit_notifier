@@ -16,6 +16,7 @@ To run Qunit Notifier correctly, you must have installed:
 ### Install
 
 * With npm
+
 	$ npm install qunit_notifier
 
 ### Configure
