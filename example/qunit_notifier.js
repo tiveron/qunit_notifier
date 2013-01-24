@@ -4,7 +4,8 @@ var qnotifier = require('../lib/main');
 qnotifier.configure({
 	testPath: path.join(__dirname, 'cases'),
 	runner: path.join(__dirname, 'index.html'),
-	notifier: 'growl'
+	notifier: 'growl',
+	theme: 'doom'
 });
 
 qnotifier.watch();
