@@ -46,3 +46,14 @@ You can configure your test runner with some options:
 
 ### Custom Themes
 In few days... =)
+
+### Screenshots
+
+Default theme
+![rest screenshot web service](http://i49.tinypic.com/vwpnxc.png)
+
+Doom theme
+![rest screenshot web service](http://i47.tinypic.com/1gjhh2.png)
+
+Batman theme
+![rest screenshot web service](http://i45.tinypic.com/2ptsea8.png)
