@@ -2,7 +2,7 @@
   "name": "qunit_notifier",
   "version": "0.0.1",
   "description": "NodeJS wrapper for Qunit notifications",
-  "main": "index.js",
+  "main": "./lib/main.js",
   "dependencies": {
     "watchr": "~2.3.3",
     "phantomjs": "~1.8.0-1",
