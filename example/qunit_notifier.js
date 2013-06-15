@@ -5,7 +5,8 @@ qnotifier.configure({
 	testPath: path.join(__dirname, 'cases'),
 	runner: path.join(__dirname, 'index.html'),
 	notifier: 'snarl',
-	theme: 'batman'
+	theme: 'batman',
+	//silent: true
 });
 
 qnotifier.watch();
