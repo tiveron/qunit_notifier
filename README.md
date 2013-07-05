@@ -11,29 +11,18 @@ To run Qunit Notifier correctly, you must have installed:
 * [nodeJS](http://nodejs.org/)
 * [phantomJS](http://phantomjs.org/)
 * npm - Comes with node now
-<<<<<<< HEAD
 * Growl, Snarl or Libnotify to display Qunit Notifier notifications. But it's not obligatory, Qunit Notifier displays messages on terminal too ;)
 
 ### Install it globally
-=======
-* Growl, Snarl or Libnotify to display Qunit Notifier notifications
-
-### Install
->>>>>>> 7538a072be30a5686954240df9218fd84d1a5bc2
 
 * With npm
 
-```
-<<<<<<< HEAD
+```bash
 $ npm install -g qunit_notifier
-=======
-$ npm install qunit_notifier
->>>>>>> 7538a072be30a5686954240df9218fd84d1a5bc2
 ```
 
 ### Configure
 
-<<<<<<< HEAD
 You can pass a configuration file for Qunit Notifier. See more details on documentation.
 
 ```javascript
@@ -47,19 +36,6 @@ var qunit_notifier = {
 };
 
 module.exports = qunit_notifier;
-=======
-```javascript
-var qnotifier = require('qunit_notifier');
-	var path = require('path');
-
-qnotifier.configure({
-	testPath: path.join(__dirname, 'cases'),
-	runner: path.join(__dirname, 'index.html'),
-	notifier: 'growl'
-});
-
-qnotifier.watch();
->>>>>>> 7538a072be30a5686954240df9218fd84d1a5bc2
 ```
 
 A example can be found in "example" folder.
@@ -72,17 +48,13 @@ You can configure your test runner with some options:
 * runner: Qunit html runner
 * notifier: System notification ("growl","snarl" or "libnotify")
 * theme: Yes, we have some themes! :D ("default","batman","doom","ironman","streetfighter")
-<<<<<<< HEAD
 * silent: Display messages only on terminal (true, false)
 
 ... More details on documentation =)
-=======
->>>>>>> 7538a072be30a5686954240df9218fd84d1a5bc2
 
 ### Custom Themes
 In few days... =)
 
-<<<<<<< HEAD
 ### Run it!
 You run Qunit Notifier directly by "qunit_notifier" command! :D
 
@@ -90,8 +62,6 @@ You run Qunit Notifier directly by "qunit_notifier" command! :D
 $ qunit_notifier config_file.js
 ```
 
-=======
->>>>>>> 7538a072be30a5686954240df9218fd84d1a5bc2
 ### Screenshots
 
 Default theme
