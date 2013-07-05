@@ -17,6 +17,9 @@
     "scripts": {
         "test": "mocha test/*.js"
     },
+    "bin": {
+        "qunit_notifier": "./bin/qunit_notifier"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/tiveron/qunit_notifier.git"
