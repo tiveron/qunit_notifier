@@ -1,0 +1,36 @@
+{
+    "name": "qunit_notifier",
+    "version": "0.1.0",
+    "author": "Thiago Tiveron <thiagotf9@gmail.com>",
+    "description": "NodeJS wrapper for Qunit notifications",
+    "main": "./lib/main.js",
+    "dependencies": {
+        "watchr": "~2.3.3",
+        "phantomjs": "~1.8.0-1",
+        "growler": "",
+        "libnotify": "1.0.2"
+    },
+    "devDependencies": {
+        "mocha": "",
+        "should": ""
+    },
+    "scripts": {
+        "test": "mocha test/*.js"
+    },
+    "bin": {
+        "qunit_notifier": "./bin/qunit_notifier"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tiveron/qunit_notifier.git"
+    },
+    "keywords": [
+        "qunit",
+        "notifier",
+        "growl",
+        "snarl"
+    ],
+    "license": "BSD",
+    "readmeFilename": "README.md",
+    "gitHead": "ca05f68da40e6a769899e12bf95fc9e6f9dc93d0"
+}
