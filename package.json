@@ -1,8 +1,8 @@
 {
     "name": "qunit_notifier",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": "Thiago Tiveron <thiagotf9@gmail.com>",
-    "description": "NodeJS wrapper for Qunit notifications",
+    "description": "Run Qunit tests headless and show results on a notification system like Growl/Snarl/Libnorify",
     "main": "./lib/main.js",
     "dependencies": {
         "watchr": "~2.3.3",
