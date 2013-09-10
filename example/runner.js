@@ -5,7 +5,7 @@ var qunit_notifier = {
     runner: path.join(__dirname, 'index.html'),
     notifier: 'snarl',
     theme: 'doom'
-    ,silent: true
+    //,silent: true
 };
 
 module.exports = qunit_notifier;
