@@ -9,7 +9,7 @@ test( "module 2", function() {
 }); 
 
 test( "another module", function() {
-	ok( 0 == "1", "Passed!" ); 
+	ok( 1 == "1", "Passed!" ); 
 	ok( 1 == "1", "Passed!" ); 
 	ok( 1 == "1", "Passed!" );
 	ok( 1 == "1", "Passed!" );
