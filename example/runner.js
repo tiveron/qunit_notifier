@@ -1,12 +1,11 @@
-var qnotifier = require('../lib/main');
-	var path = require('path');
+var path = require('path');
 
-qnotifier.configure({
-	testPath: path.join(__dirname, 'cases'),
-	runner: path.join(__dirname, 'index.html'),
-	notifier: 'libnotify',
-	theme: 'doom'
-	//silent: true
-});
+var qunit_notifier = {
+    testPath: path.join(__dirname, 'cases'),
+    runner: path.join(__dirname, 'index.html'),
+    notifier: 'snarl',
+    theme: 'doom'
+    ,silent: true
+};
 
-qnotifier.watch();
+module.exports = qunit_notifier;
