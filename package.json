@@ -1,6 +1,6 @@
 {
     "name": "qunit_notifier",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "author": "Thiago Tiveron <thiagotf9@gmail.com>",
     "description": "Run Qunit tests headless and show results on a notification system like Growl/Snarl/Libnorify",
     "main": "./lib/main.js",
